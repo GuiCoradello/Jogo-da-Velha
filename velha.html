@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[ Jogo da Velha ]</title>
+  <link rel="stylesheet" href="velha.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Montserrat:wght@200;300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <main id="game">
+
+
+    <section id="inst">
+      <h2 class="text">Instruçoes</h2>
+      <div id="pRed">
+        <h2 class="text">Player <strong id='red'>RED</strong></h2>
+        <div id="fotoRed">
+
+        </div>
+      </div>
+      <div id="pBlue">
+        <h2 class="text">Player <strong id='blue'>blue</strong></h2>
+        <div id="fotoBlue">
+
+        </div>
+      </div>
+    </section>
+
+    <section id="velha">
+      <h1 class="text"> [ Jogo da velha ] </h1>
+      <div id="tela">
+        <div id="C1" onmousedown="c1(event)"></div>
+        <div id="C2" onmousedown="c2(event)"></div>
+        <div id="C3" onmousedown="c3(event)"></div>
+        <div id="C4" onmousedown="c4(event)"></div>
+        <div id="C5" onmousedown="c5(event)"></div>
+        <div id="C6" onmousedown="c6(event)"></div>
+        <div id="C7" onmousedown="c7(event)"></div>
+        <div id="C8" onmousedown="c8(event)"></div>
+        <div id="C9" onmousedown="c9(event)"></div>
+      </div>
+
+    </section>
+
+    <section id="placar">
+      <h2 class="text">placar</h2>
+      <div id="vermelho"></div>
+      <div id="botoes">
+        <input type="button" id="btn" value="Deu velha" onclick="limpaTela()" >
+        <input type="button" id="btn" value="Zerar placar" onclick="zerar()">
+      </div>
+      <div id="azul"></div>
+    </section>
+  </main>
+
+  <script src="velha.js"></script>
+</body>
+
+</html>

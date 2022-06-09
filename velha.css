@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#game {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 100vh;
+  gap: 9px;
+}
+
+#inst {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr 1fr;
+  gap: 20px;
+
+}
+
+.text {
+  font-size: 40px;
+  color: rgb(40, 37, 37);
+  text-align: center;
+}
+
+#red {
+  background-color: red;
+
+}
+
+#blue {
+  background-color: blue;
+
+}
+
+#pRed {
+  border-bottom: 1px solid;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr;
+
+}
+
+#fotoRed {
+  grid-row: 2 / 3;
+  width: 100%;
+  height: 100%;
+  background-image: url('./fotos/3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: fotoR 5s infinite;
+
+}
+
+@keyframes fotoR {
+  0% {
+    background-image: url('./fotos/1.png');
+  }
+
+  50% {
+    background-image: url('./fotos/3.png');
+  }
+
+  100% {
+    background-image: url('./fotos/1.png');
+
+  }
+}
+
+
+
+#pBlue {
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr;
+}
+
+#fotoBlue {
+  grid-row: 2 / 3;
+  width: 100%;
+  height: 100%;
+  background-image: url('./fotos/2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: fotoB 5s infinite;
+}
+
+@keyframes fotoB {
+  0% {
+    background-image: url('./fotos/1.png');
+  }
+
+  50% {
+    background-image: url('./fotos/2.png');
+  }
+
+  100% {
+    background-image: url('./fotos/1.png');
+
+  }
+}
+
+#velha {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr;
+}
+
+
+#tela {
+  width: 100%;
+  height: calc(100% - 40px);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  background-color: black;
+  gap: 10px;
+
+  margin: 10px auto;
+}
+
+#tela div {
+  border: 1px solid white;
+
+}
+
+
+#placar {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 40% 5% 40%;
+  gap: 10px;
+}
+
+#vermelho {
+  border: 10px solid red;
+  border-radius: 50px;
+  font-size: 200px;
+  width: 60%;
+  height: 80%;
+  align-self: center;
+  text-align: center;
+  margin: auto;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+
+#botoes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#reset {
+  width: 30%;
+  height: 100%;
+  font-size: 20px;
+}
+
+#btn {
+  width: 30%;
+  height: 100%;
+  font-size: 20px;
+
+}
+
+#azul {
+  border: 10px solid blue;
+  border-radius: 50px;
+  font-size: 200px;
+  width: 60%;
+  height: 80%;
+  align-self: center;
+  text-align: center;
+  margin: auto;
+  font-family: 'Courier New', Courier, monospace;
+}
