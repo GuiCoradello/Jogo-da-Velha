@@ -57,16 +57,7 @@ function c1(event) {
       coR8 = null
       coR9 = null
 
-      //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      setTimeout(limpaTela, 250)
     }
 
   }
@@ -88,15 +79,7 @@ function c1(event) {
       coB8 = null
       coB9 = null
       //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      setTimeout(limpaTela, 250)
 
     }
   }
@@ -122,15 +105,7 @@ function c2(event) {
       coR9 = null
 
       //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      setTimeout(limpaTela, 250)
 
     }
   }
@@ -149,15 +124,7 @@ function c2(event) {
       coB8 = null
       coB9 = null
       //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      setTimeout(limpaTela, 250)
     }
   }
 
@@ -181,15 +148,7 @@ function c3(event) {
       coR9 = null
 
       //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      setTimeout(limpaTela, 250)
     }
   }
   if (event.button == 1) {
@@ -208,15 +167,7 @@ function c3(event) {
       coB8 = null
       coB9 = null
       //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      setTimeout(limpaTela, 250)
     }
 
   }
@@ -242,15 +193,7 @@ function c4(event) {
       coR9 = null
 
       //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      setTimeout(limpaTela, 250)
     }
   }
   if (event.button == 1) {
@@ -269,16 +212,8 @@ function c4(event) {
       coB7 = null
       coB8 = null
       coB9 = null
-      //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      //limpa a tela
+      setTimeout(limpaTela, 250)
     }
   }
 
@@ -302,16 +237,8 @@ function c5(event) {
       coR8 = null
       coR9 = null
 
-      //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      //limpa a tela
+      setTimeout(limpaTela, 250)
     }
 
 
@@ -331,16 +258,8 @@ function c5(event) {
       coB7 = null
       coB8 = null
       coB9 = null
-      //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      //limpa a tela
+      setTimeout(limpaTela, 250)
     }
   }
 
@@ -364,16 +283,8 @@ function c6(event) {
       coR8 = null
       coR9 = null
 
-      //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      //limpa a tela
+      setTimeout(limpaTela, 250)
     }
   }
   if (event.button == 1) {
@@ -393,16 +304,8 @@ function c6(event) {
       coB7 = null
       coB8 = null
       coB9 = null
-      //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      //limpa a tela
+      setTimeout(limpaTela, 250)
     }
   }
 
@@ -424,16 +327,8 @@ function c7(event) {
       coR8 = null
       coR9 = null
 
-      //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      //limpa a tela
+      setTimeout(limpaTela, 250)
     }
   }
   if (event.button == 1) {
@@ -452,16 +347,8 @@ function c7(event) {
       coB7 = null
       coB8 = null
       coB9 = null
-      //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      //limpa a tela
+      setTimeout(limpaTela, 250)
     }
   }
 
@@ -485,16 +372,8 @@ function c8(event) {
       coR8 = null
       coR9 = null
 
-      //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      //limpa a tela
+      setTimeout(limpaTela, 250)
     }
   }
   if (event.button == 1) {
@@ -513,16 +392,8 @@ function c8(event) {
       coB7 = null
       coB8 = null
       coB9 = null
-      //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      //limpa a tela
+      setTimeout(limpaTela, 250)
     }
   }
 
@@ -546,16 +417,8 @@ function c9(event) {
       coR8 = null
       coR9 = null
 
-      //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      //limpa a tela
+      setTimeout(limpaTela, 250)
     }
   }
   if (event.button == 1) {
@@ -574,16 +437,8 @@ function c9(event) {
       coB7 = null
       coB8 = null
       coB9 = null
-      //campos 
-      C1.style.background = 'black'
-      C2.style.background = 'black'
-      C3.style.background = 'black'
-      C4.style.background = 'black'
-      C5.style.background = 'black'
-      C6.style.background = 'black'
-      C7.style.background = 'black'
-      C8.style.background = 'black'
-      C9.style.background = 'black'
+      //limpa a tela
+      setTimeout(limpaTela, 250)
     }
   }
 
